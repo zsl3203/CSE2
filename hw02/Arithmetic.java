@@ -29,11 +29,11 @@ public class Arithmetic {
         System.out.println("I bought "+nEnvelopes+" box of envelope for "+
                envelopeCost$+" dollars.");
         totalSockCost$=nSocks*sockCost$;
-        socktax$=totalSockCost$*taxPercent;
+        socktax$=((int)(totalSockCost$*taxPercent*100)/100.0);
         totalGlassCost$=nGlasses*glassCost$;
-        glasstax$=totalGlassCost$*taxPercent;
+        glasstax$=((int)(totalGlassCost$*taxPercent*100)/100.0);
         totalEnvelopeCost$=nEnvelopes*envelopeCost$;
-        envelopetax$=totalEnvelopeCost$*taxPercent;
+        envelopetax$=((int)(totalEnvelopeCost$*taxPercent*100)/100.0);
         totalCost$=totalSockCost$+totalGlassCost$+totalEnvelopeCost$;
         totaltax$=socktax$+glasstax$+envelopetax$;
         totalCostwithtax$=totalCost$+totaltax$;
