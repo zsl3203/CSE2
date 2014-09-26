@@ -41,7 +41,3 @@ public class BigMacAgain{
         }   //else for not int
     }
 }
-
-        
-
-       
