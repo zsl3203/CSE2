@@ -24,6 +24,8 @@ public class HelloWorld{
     System.out.println("###########################");
     System.out.println("test");
     
+    double truthValue=2;
+    System.out.println(truthValue);
     //test/testtest
   }
 }
