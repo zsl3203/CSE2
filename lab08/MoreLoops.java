@@ -29,15 +29,16 @@ public class MoreLoops{
     	//System.out.println();
     //}
     
-    int j=0, k=0;
-    while (j<n&&j<40){
-        while (k<j+1){
-            k++;
-            System.out.print('*');
+   int j=0, k=0;
+    while (j<=n&&j<40){
+        k=j;
+        while(k!=0){
+            System.out.print("*");
+            k--;
         }
-        j++
-        System.out.println();
-    }
+        System.out.print("\n");
+        j++;
+        }
     
       //int k=4;
 
@@ -46,7 +47,7 @@ public class MoreLoops{
     	//k++;
     //}
      	//while(k<4);
-    int k=3 	
+    int k=4; 	
     while (k<4){
         System.out.println("k="+k);
         K++;
