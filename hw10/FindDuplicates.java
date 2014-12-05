@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 public class FindDuplicates{
   public static void main(String [] arg){
-    FindDups.exactlyOneDup
+    Scanner scan=new Scanner(System.in);
     int num[]=new int[10];
     String answer="";
     do{

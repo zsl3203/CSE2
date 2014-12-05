@@ -11,7 +11,7 @@ public class MoreLoops{
     //}
     System.out.print("Enter an int- ");
     if (scan.hasNextInt()) {
-        scan.nextInt();
+        n=scan.nextInt();
     }
     else {
         do{
@@ -20,7 +20,6 @@ public class MoreLoops{
         }while(!scan.hasNextInt());
     }
     
-    n=scan.nextInt();
 
     //for(int j=0;j<n && j<40;j++){
     	//for(int k=0;k<j+1;k++){
@@ -40,18 +39,17 @@ public class MoreLoops{
         j++;
         }
     
-      //int k=4;
+     /* k=4;
 
-    //do{
-    	//System.out.println("k="+k);
-    	//k++;
-    //}
-     	//while(k<4);
-    int k=4; 	
-    while (k<4){
+    do{
+    	System.out.println("k="+k);
+    	k++;
+    } while(k<4);*/
+    k=4; 	
+    while (k<=4){
         System.out.println("k="+k);
-        K++;
-    }
+        k++;
+    } 
     
     
     
@@ -91,6 +89,8 @@ public class MoreLoops{
             
         }
     }
+	}
+}
     
 
 
